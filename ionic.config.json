@@ -1,0 +1,7 @@
+{
+  "name": "Nachoapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
