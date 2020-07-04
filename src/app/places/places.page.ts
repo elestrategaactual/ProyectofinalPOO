@@ -15,7 +15,7 @@ private lugares=[
 },
 {
   id: '2',
-  title: 'Edificio Insignio Julio Garavito',
+  title: 'Edificio Insignia Julio Garavito',
   imagenURL: 'https://d2yoo3qu6vrk5d.cloudfront.net/images/20181204071023/senjal-colombia-20170921-00-482x320.jpg',
   comments: ['Edificio insigne de la facultad de ingeniería','sfdfsf']
 }
