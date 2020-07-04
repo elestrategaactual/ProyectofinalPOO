@@ -315,7 +315,7 @@ export class MapaPage  {
 
   showMap() {
     //se llama al objeto  latitud y logitud de la libreria de maps y se le asignan unas contstantes
-    const location = new google.maps.LatLng(4.635683, -74.082341);
+    const location = new google.maps.LatLng(4.638769, -74.083158);
     const options = {
       mapId: "8e0a97af9386fef",
       center: location,
