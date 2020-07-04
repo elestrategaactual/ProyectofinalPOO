@@ -15,6 +15,7 @@ interface Marker {
   templateUrl: './mapa.page.html',
   styleUrls: ['./mapa.page.scss'],
 })
+//clase para el mapa
 export class MapaPage  {
 
   map: any;
@@ -80,12 +81,14 @@ export class MapaPage  {
   }
 
   showMap() {
+    //se llama al objeto  latitud y logitud de la libreria de maps y se le asignan unas contstantes
     const location = new google.maps.LatLng(4.635683, -74.082341);
     const options = {
       center: location,
       zoom: 18,
       disableDefaultUI: true
     }
+    //se llama al objeto mapa de la lib de google Maps y se carga en pantalla
     this.map = new google.maps.Map(this.mapRef.nativeElement, options);
     this.addMarkersToMap(this.markers);
   }
