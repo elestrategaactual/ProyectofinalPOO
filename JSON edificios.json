@@ -6,6 +6,7 @@
 			"Facultad":"Ingenieria",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Finalizada su construccion en 1943, es tambien llamado como Edificio insignia Julio Garavito Armero, fue diseño por los arquitectos Lepoldo Roter y Bruno Violi siguiendo los diseños del tambien arquitecto Alberto Wills Ferro; fue restaurado y actualizado arquitectonica y tecnologicamente en 2013, un año despues vuelve a abrir sus puertas dando la bienvenida a una nueva generación de estudiantes de ingenieria mostrando con orgullo el proceso de actualización que fue llevado a cabo."
 		},
 		"404":{
@@ -14,6 +15,7 @@
 			"Facultad":"Ciencias",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Siendo diseñado durante el periodo constructivo de 'Materiales a la vista'(1943-1952), fue usado originalmente como un edificio anexo de la facultad de ingenieria, actualmente se utiliza como el edificio de matemáticas y fisica, tambien conocido como el edificio Yu Takeuchi en honor al fisico y matemático japones que enseño en la universidad desde 1959 hasta 1989"
 		},
 		"405":{
@@ -22,6 +24,7 @@
 			"Facultad":"Ciencias",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Actualmente el edificio conectado al 404 es utilizado actualmente para la impartición de clases de matemáticas y fisica principalmente de materias de postgrado"
 		},
 		"406":{
@@ -30,6 +33,7 @@
 			"Facultad":"Ingenieria",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Fue construido durante el periodo constructivo de 'Ciudad Blanca' (1973-1944), fue usado originalmente como lavoratorio de ensayo de materiales, actualmente se utiliza como instituto de ensayos e investigaciones"
 		},
 		"407":{
@@ -38,6 +42,7 @@
 			"Facultad":"Ciencias",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Actualmente usado como edificio de Postgrados de Materiales y Procesos de manufactura, conectado al edifcio 411 de laboratorios de ingenieria, hace parte del sector de Patios de Ingenieria"
 		},
 		"408":{
@@ -46,6 +51,7 @@
 			"Facultad":"Ingenieria",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Utilizado como laboratorio de ensayos de hidraulica esta ubicado e la parte posterior del edificio 405"
 		},
 		"409":{
@@ -54,6 +60,7 @@
 			"Facultad":"Ingenieria",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Utilizado como laboratorio de hidraulica esta conectado con el edificio 407 por su parte posterior"
 		},
 		"411":{
@@ -62,6 +69,7 @@
 			"Facultad":"Ingenieria",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Utilizado como el edificio de laboratorios de ingenieria donde se dictan diversas materias practicas de los programas de pregado, conectado el edifcio 407, hace parte del sector de Patios de Ingenieria"
 		},
 		"412":{
@@ -70,6 +78,7 @@
 			"Facultad":"Ingenieria",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Utilizado como el edifcio de Laboratorios de Ingenieria Quimica, esta ubicado entre el edificio 453 y el complejo de Patios de ingenieria"
 		},
 		"413":{
@@ -78,6 +87,7 @@
 			"Facultad":"Ciencias",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Funciona actualmente como sede administrativa academica del Observatorio Astronomico Nacional y en donde se imparten diversas clases orientadas al estudio del cosmos, ubicado cerca al complejo de Patios de Ingenieria"
 		},
 		"414":{
@@ -86,6 +96,7 @@
 			"Facultad":"N/A",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Ubicadas junto al edifcio 413, son utilizadas por los estudientes que practican tenis de forma competitiva o casual"
 		},
 		"421":{
@@ -94,14 +105,16 @@
 			"Facultad":"Ciencias",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Utilizado actualmente como dapartamento de Biologia y para impartir diversos tipos de clases, esta ubicado en la parte posterior del edifcio 407"
 		},
 		"425":{
-			"Nombre":"Instituto de ciencias naturales/Museo de historia natural"
+			"Nombre":"Instituto de ciencias naturales/Museo de historia natural",
 			"Categoria":"Academico/Museo",
 			"Facultad":"Ciencias",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"El primer piso del edificio es utilizado como Museo de Historia Natural y actualmente alberga más de 2000 ejemplares representativos de la riqueza biologica de nuestro pais; esta abierto al publico general con un pequeño costo de entrada, esta abierto de Lunes a Viernes de 8:00 am a 12:00 m y 1:00 pm a 5:00 pm, y los sabados de 9:00 am a 12:00 m, ubicado frente al complejo 431"
 		},
 		"426":{
@@ -110,6 +123,7 @@
 			"Facultad":"Ciencias",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Creado en 1993, el Instituto de Genetica de la Universidad Nacional de Colombia-IGUN ha desarrollado actividades de investigación, formación y extensión, que le permiten hacer presencia en diferentes áreas de la genética a nivel vegetal, animal y humano; esta ubicado junto al edificio 425"
 		},
 		"431":{
@@ -118,6 +132,7 @@
 			"Facultad":"N/A",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Es el resultado de la fusión entre la Escuela Anexa Arturo Ramirez Montúfar y el Instituto de Aplicación Pedagógica IDAP, que fue realizada en 1989, desde entonces presta el servicio de educación prejardín, primaria y secundaria a los hijos de los funcionarios de la universidad; ubicado frente al edificio 425 y contiene a su vez los edificios 432, 433, 434, 435, 436, 437 y 438"
 		},
 		"450":{
@@ -126,6 +141,7 @@
 			"Facultad":"Ciencias",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Actualmente usado para impartir clases del pregado de Farmacia, esta conectado con el edificio 451 y ubica en la parte posterior del edificio 401"
 		},
 		"451":{
@@ -134,6 +150,7 @@
 			"Facultad":"Ciencias",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Fue diseñado durante el periodo constructivo 'Materiales a la vista'(1943-1952) fue usado originalmenta como la facultad de Quimica e Ingenieria Quimica, ubicado frente al edificio 454, contiene tambien el edificio 452 de Posgrado de Bioquimica y Carbones"
 		},
 		"453":{
@@ -142,6 +159,7 @@
 			"Facultad":"Ingenieria",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/AulasDeIngenieriaUN.JPG/470px-AulasDeIngenieriaUN.JPG",
 			"Historia":"Actualmente presta servicio academico para los estudientes de ingenieria de la Universidad Nacional de Colombia, ubicado junto al edificio 454"
 		},
 		"454":{
@@ -150,6 +168,7 @@
 			"Facultad":"Ingenieria",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"https://images.adsttc.com/media/images/54d5/1f01/e58e/ce19/1200/0020/large_jpg/Edificio_de_Ciencia_y_Tecnologia_0.jpg?1423253243",
 			"Historia":"Inaugurado en el año 2008, el Edificio de ciencia y tecnologia/CyT ubicado frente al edificio 451 cuenta con una biblioteca propia con salas de computación y una cafeteria en el piso superior"
 		},
 		"471":{
@@ -158,6 +177,7 @@
 			"Facultad":"Medicina",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"",
 			"Historia":"Ubicado en la parte posterior del edificio 450, actualmente funciona como area de estudio de los estudiantes de medicina y cuenta con aulas de informatica al servicio de cual estudiante del campus"
 		},
 		"476":{
@@ -166,6 +186,7 @@
 			"Facultad":"Ciencias",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/FacultadDeCiencias.JPG/470px-FacultadDeCiencias.JPG",
 			"Historia":"Ubicado en la parte occidental del edificio 454, presta servicio administrativo a la facultad de ciencias de la Universidad Nacional de Colombia"
 		},
 		"477":{
@@ -174,6 +195,7 @@
 			"Facultad":"N/A",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"https://lh3.googleusercontent.com/proxy/ILHmK5ETrYwc-68ri6kkqX3or0Ld00GZ8xH6SXifRh1O1JfRme90DWEl1nLUNwKLYNe8ie4l8vDGvQLtq6fwJ2jdMjKW6TUfthunjBZRa3z3XkgUi1AkccM_1A",
 			"Historia":"Actualmente presta servicios informaticos a los estudiantes de cualquier facultad de la universidad, ubicada junto al edifcio 471"
 		},
 		"481":{
@@ -182,6 +204,7 @@
 			"Facultad":"Veterinaria",
 			"Latitud":"",
 			"Longitud":"",
+			"imagenURL":"https://lh3.googleusercontent.com/proxy/6yRDS0Cp4utatBpO22qhnJUgM8whBMeyrJToVCIb9frCECWBBmYiFdYQfmWU8Mu8plzs6cW0BnzsHjX4d6exblK6NCt29euy0CgUubOReR8p5JoGEOfJcaVmrU2jsK0yW1ld_2cyDeUrgFwU5qzCtF4EQrVt",
 			"Historia":"Diseñado durante el periodo constructivo 'Ciudad Blanca'(1937-1944), fue utilizado desde su inauguración y hasta la fecha como la Escuela de Veterinaria, esta ubicado en el extremo occidental de el edificio 471"
 		}
 	}
