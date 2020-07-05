@@ -4,11 +4,9 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-<<<<<<< HEAD
-    redirectTo: 'places',
-=======
+
     redirectTo: 'home',
->>>>>>> e53fc3853109048f1d15e199c04073e23af68fe9
+
     pathMatch: 'full'
   },
   {
@@ -34,18 +32,12 @@ const routes: Routes = [
     path: 'mapa',
     loadChildren: () => import('./mapa/mapa.module').then( m => m.MapaPageModule)
   },
-<<<<<<< HEAD
-  
-=======
+
   {
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
 
-
-
- 
->>>>>>> e53fc3853109048f1d15e199c04073e23af68fe9
 ];
 
 @NgModule({

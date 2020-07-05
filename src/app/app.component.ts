@@ -13,15 +13,12 @@ export class AppComponent implements OnInit {
   public selectedIndex = 0;
   public appPages = [
     {
-<<<<<<< HEAD
-=======
       title: 'Home',
       url:'/home',
       icon: 'home'
 
     },
     {
->>>>>>> e53fc3853109048f1d15e199c04073e23af68fe9
       title: 'Lugares',
       url: '/places',
       icon: 'business'
