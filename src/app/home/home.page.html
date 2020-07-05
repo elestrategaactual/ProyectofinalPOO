@@ -1,0 +1,60 @@
+<ion-header >
+  <ion-toolbar color='success'>
+    <ion-title>NachoApp</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content padding class="background"> 
+  <div class="center">
+    
+      <img  src="assets/img/menu.png"/>
+
+    
+  <br>
+    <ion-text  class="ion-text-center" color="dark">
+      <h1>NACHOAPP</h1>
+   </ion-text>
+  </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <ion-button  expand="block"
+  [routerLink]="['/places']"
+  color="success">
+  <ion-icon slot="end" name="business"></ion-icon>
+  Campus un</ion-button>
+
+  <ion-button expand="block"  icon-left 
+  [routerLink]="['/mapa']"
+  color="success">
+  <ion-icon slot="end" name="map"></ion-icon>
+  Mapa un</ion-button>
+
+</ion-content>
+
+<ion-fab  vertical="center" horizontal="end">
+  <ion-fab-button color="success" >Redes</ion-fab-button>
+  <ion-fab-list side="top">
+    <ion-fab-button >
+      <ion-icon name="logo-facebook"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button>
+      <ion-icon name="logo-twitter"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button>
+      <ion-icon name="logo-instagram"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button>
+      <ion-icon name="logo-github"></ion-icon>
+    </ion-fab-button>
+  </ion-fab-list>
+
+</ion-fab>
+
+
+
+
