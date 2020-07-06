@@ -9,7 +9,7 @@ const routes: Routes = [
     component: InstalacionesPage
   },
   {
-    path: 'descripcion',
+    path: ':edificioID',
     loadChildren: () => import('./descripcion/descripcion.module').then( m => m.DescripcionPageModule)
   }
 ];

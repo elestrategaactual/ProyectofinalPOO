@@ -11,7 +11,7 @@ import {ActivatedRoute} from '@angular/router';
 export class DescripcionPage implements OnInit {
 
   constructor(private activateRoute: ActivatedRoute, private instalacionesService: InstalacionesService) { }
-  descrip: Sitios
+  descrip: Sitios;
   ngOnInit() {
     this.activateRoute.paramMap.subscribe(paraMap => {
       const intId = paraMap.get('descripId');

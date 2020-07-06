@@ -10,7 +10,7 @@
 <ion-content>
   <ion-list>
     
-    <ion-item *ngFor="let edificio of edificios; let i= 'edificios'" [routerLink]="['/places/place-detail/instalaciones', edificio.id]">
+    <ion-item *ngFor="let edificio of edificios; let i= 'edificios'" [routerLink]="['/places/place-detail/instalaciones',edificio.id]">
       <ion-avatar slot="start">
         <ion-img [src]="edificio.imagenURL"></ion-img>
       </ion-avatar>

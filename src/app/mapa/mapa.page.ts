@@ -16,7 +16,7 @@ interface Marker {
   templateUrl: './mapa.page.html',
   styleUrls: ['./mapa.page.scss'],
 })
-//clase para el mapa
+// clase para el mapa
 export class MapaPage  {
 
   map: any;
