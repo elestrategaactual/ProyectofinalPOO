@@ -6,11 +6,9 @@
 
 <ion-content>
 <ion-list>
-  <ion-item *ngFor="let lugar of lugares;let i = 'lugares'" [routerLink]="['/places',lugar.id]">
-    <ion-avatar slot="start">
-      <img [src]="lugar.imagenURL" />
-    </ion-avatar>
-    <ion-label>{{lugar.title}}</ion-label>
+  <ion-item *ngFor="let lugar of lugares;let i = 'lugares' " [routerLink]="['/places',lugar.id]">
+    <ion-icon slot="start" [ios]="lugar.imagenURL + '-outline'" [md]="lugar.imagenURL + '-sharp'"></ion-icon>
+    <ion-label>{{lugar.titulo}}</ion-label>
   </ion-item>
 </ion-list>
 </ion-content>

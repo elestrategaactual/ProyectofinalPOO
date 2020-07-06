@@ -3,24 +3,34 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: '',
-    redirectTo: 'places',
-    pathMatch: 'full'
-  },
-  {
-    path: 'folder/:id',
-    loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
-  },
-  {
     path: 'places',
     children: [
       {
-        path: "",
+        path: '',
         loadChildren: () => import('./places/places.module').then( m => m.PlacesPageModule),
       },
       {
-        path: ":lId",
-        loadChildren: () => import('./places/place-detail/place-detail.module').then(m => m.PlaceDetailPageModule)
+        path: ':placeId',
+        children:[
+          {
+            path: '',
+            loadChildren: () => import('./places/place-detail/place-detail.module').then(m => m.PlaceDetailPageModule),
+
+          },
+          {
+            path:':instalacionId',
+            children:[
+              {
+                path: '',
+                loadChildren: () => import('./places/place-detail/instalaciones/instalaciones.module').then(m => m.InstalacionesPageModule),
+              },
+              {
+                path:'descripId',
+                loadChildren: () => import('./places/place-detail/instalaciones/descripcion/descripcion.module').then(m => m.DescripcionPageModule)
+              }
+            ] 
+          }
+        ]
       }
 
       ]
@@ -30,7 +40,6 @@ const routes: Routes = [
     path: 'mapa',
     loadChildren: () => import('./mapa/mapa.module').then( m => m.MapaPageModule)
   },
-  
 ];
 
 @NgModule({

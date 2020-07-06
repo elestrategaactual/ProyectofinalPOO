@@ -7,7 +7,11 @@ const routes: Routes = [
   {
     path: '',
     component: PlaceDetailPage
+  },  {
+    path: 'instalaciones',
+    loadChildren: () => import('./instalaciones/instalaciones.module').then( m => m.InstalacionesPageModule)
   }
+
 ];
 
 @NgModule({

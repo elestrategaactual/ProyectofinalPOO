@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref = "/place-detail"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Instalaciones</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    
+    <ion-item *ngFor="let edificio of edificios; let i= 'edificios'" [routerLink]="['/places/place-detail/instalaciones', edificio.id]">
+      <ion-avatar slot="start">
+        <ion-img [src]="edificio.imagenURL"></ion-img>
+      </ion-avatar>
+        <ion-label>{{edificio.Nombre}}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,28 +1,19 @@
 import { Component, OnInit } from '@angular/core';
+import {PlacesService} from "./places.service";
+
 @Component({
   selector: 'app-places',
   templateUrl: './places.page.html',
   styleUrls: ['./places.page.scss'],
 })
 export class PlacesPage implements OnInit {
-private lugares=[
-{
-   id: '1',
-   title: 'Campus un',
-   imagenURL: 'https://www.eltiempo.com/files/image_640_428/uploads/2017/09/21/59c45ca7ae8a2.jpeg',
-   comments: ['sfefef','sfefefe']
 
-},
-{
-  id: '2',
-  title: 'Edificio Insignia Julio Garavito',
-  imagenURL: 'https://d2yoo3qu6vrk5d.cloudfront.net/images/20181204071023/senjal-colombia-20170921-00-482x320.jpg',
-  comments: ['Edificio insigne de la facultad de ingeniería','sfdfsf']
-}
-]
+  lugares =[]
 
-  constructor() { }
+  constructor(private placeService: PlacesService) { }
+
 
   ngOnInit() {
+    this.lugares = this.placeService.obtenerlugares();
   }
 }

@@ -1,9 +1,19 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Descripción del lugar</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref = "/places"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{lugar.titulo}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  
+  <ion-list>
+    <ion-item *ngFor="let facultad of facultades; let i= 'facultades'" [routerLink]="['/places/place-detail', facultad.id]">
+      <ion-avatar slot="start">
+        <ion-img [src]="facultad.imagenURL"></ion-img>
+      </ion-avatar>
+        <ion-label>{{facultad.titulo}}</ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
