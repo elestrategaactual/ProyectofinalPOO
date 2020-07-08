@@ -14,10 +14,9 @@ export class DescripcionPage implements OnInit {
   descrip: Sitios;
   ngOnInit() {
     this.activateRoute.paramMap.subscribe(paraMap => {
-      const intId = paraMap.get('descripId');
-      this.descrip = this.instalacionesService.edificacion (intId);
-    }
-    )
+      const intId = paraMap.get('edificioID');
+      this.descrip = this.instalacionesService.edificacion (intId);    
+    });
   }
 
 }

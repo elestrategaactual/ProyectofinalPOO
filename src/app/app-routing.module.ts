@@ -36,7 +36,7 @@ const routes: Routes = [
                 loadChildren: () => import('./places/place-detail/instalaciones/instalaciones.module').then(m => m.InstalacionesPageModule),
               },
               {
-                path:'descripId',
+                path:':descripId',
                 loadChildren: () => import('./places/place-detail/instalaciones/descripcion/descripcion.module').then(m => m.DescripcionPageModule)
               }
             ] 
