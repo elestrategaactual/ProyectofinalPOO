@@ -25,7 +25,7 @@ export class InstalacionesService {
 			Facultad:'Ciencias',
 			Latitud:'4.637806',
 			Longitud:'-74.082302',
-			imagenURL:'',
+			imagenURL:'https://unperiodico.unal.edu.co/fileadmin/UN_Periodico_Digital/Imagenes/2018/Noviembre/1113/03._Conjetura_de_Zimmer.jpg',
 			Historia:'Siendo diseñado durante el periodo constructivo de "Materiales a la vista" (1943-1952), fue usado originalmente como un edificio anexo de la facultad de ingenieria, actualmente se utiliza como el edificio de matemáticas y fisica, tambien conocido como el edificio Yu Takeuchi en honor al fisico y matemático japones que enseño en la universidad desde 1959 hasta 1989',
 		},
 		{
@@ -45,7 +45,7 @@ export class InstalacionesService {
 			Facultad:'Ingenieria',
 			Latitud:'4.638349',
 			Longitud:'-74.082617',
-			imagenURL:'',
+			imagenURL:'https://lh3.googleusercontent.com/proxy/XG-Y7bfOBHtHuRbyyGUafWkItjGVKrbM3BrUiAaj7VToRNkJoW4HYInbYA-FQ2-irwTaIFkIPhuBaJn1egOJrHzjXpcuFyVo8e6OQopwyqbUG1YoBaUw5zwOgVhEeqVSaX5IiDT-0utFj5FBKgHoicY9zemAumofKvYm2tzSK9TpPvYQfEJFx9yc2vCzo_A',
 			Historia:'Fue construido durante el periodo constructivo de "Ciudad Blanca" (1973-1944), fue usado originalmente como lavoratorio de ensayo de materiales, actualmente se utiliza como instituto de ensayos e investigaciones'
 		},
 		{
@@ -85,7 +85,7 @@ export class InstalacionesService {
 			Facultad:'Ingenieria',
 			Latitud:'4.639085',
 			Longitud:'-74.082436',
-			imagenURL:'',
+			imagenURL:'https://fastly.4sqi.net/img/general/600x600/81956257_EuZ182YzihyY-rroceG5tQBR9IwHDcPuLy0vfgpY64M.jpg',
 			Historia:'Utilizado como el edificio de laboratorios de ingenieria donde se dictan diversas materias practicas de los programas de pregado, conectado el edifcio 407, hace parte del sector de Patios de Ingenieria'
     },
     {
@@ -105,7 +105,7 @@ export class InstalacionesService {
 			Facultad:'Ciencias',
 			Latitud:'4.639741',
 			Longitud:'-74.083359',
-			imagenURL:'',
+			imagenURL:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQdYMidohsc89sxgiXsiDG8dRewsmnCoJ3LXA&usqp=CAU',
 			Historia:'Funciona actualmente como sede administrativa academica del Observatorio Astronomico Nacional y en donde se imparten diversas clases orientadas al estudio del cosmos, ubicado cerca al complejo de Patios de Ingenieria'
 		},
 		{
