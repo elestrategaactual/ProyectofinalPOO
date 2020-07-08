@@ -9,7 +9,7 @@ Este proyecto consiste en una aplicación que busca servir de guía en el campus
 |----------------------------------|-------------------|
 | Iván Mauricio Hernández Triana   | elestrategaactual |
 | Nicolás Fernando Blanco Blanco   |      nblancob     |
-| Omar Nicolas Guerrerro           |                   |
+| Omar Nicolas Guerrerro           |     camisabo              |
 | Juseph Santaigo Useche Torres    |     Jusechet      |
 | Daniel Felipe Castro Galindo     |   DanielCastro-02 |
 | Juan Fernando Ramírez Montes     |    jramirezmon    |
