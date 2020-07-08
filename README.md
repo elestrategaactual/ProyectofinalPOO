@@ -5,14 +5,14 @@ Este proyecto consiste en una aplicación que busca servir de guía en el campus
 # Integrantes  :octocat:
 
 
-|            Nombre                | Github nickname   |
-|----------------------------------|-------------------|
-| Iván Mauricio Hernández Triana   | elestrategaactual |
-| Nicolás Fernando Blanco Blanco   |      nblancob     |
-| Omar Nicolas Guerrerro           |     camisabo      |
-| Juseph Santaigo Useche Torres    |     Jusechet      |
-| Daniel Felipe Castro Galindo     |   DanielCastro-02 |
-| Juan Fernando Ramírez Montes     |    jramirezmon    |
+|            Nombre                |                      Github nickname                      |
+|----------------------------------|-----------------------------------------------------------|
+| Iván Mauricio Hernández Triana   | [elestrategaactual](https://github.com/elestrategaactual) |
+| Nicolás Fernando Blanco Blanco   |      [nblancob](https://github.com/nblancob)              |
+| Omar Nicolas Guerrerro           |     [camisabo](https://github.com/camisabo)               |  
+| Juseph Santaigo Useche Torres    |     [Jusechet](https://github.com/Jusechet)               |
+| Daniel Felipe Castro Galindo     |   [DanielCastro-02](https://github.com/DanielCastro-02)   |
+| Juan Fernando Ramírez Montes     |    [jramirezmon](https://github.com/jramirezmon)          |
 
 
 # Introducción
