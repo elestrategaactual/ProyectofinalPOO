@@ -9,7 +9,7 @@ Este proyecto consiste en una aplicación que busca servir de guía en el campus
 |----------------------------------|-------------------|
 | Iván Mauricio Hernández Triana   | elestrategaactual |
 | Nicolás Fernando Blanco Blanco   |      nblancob     |
-| Omar Nicolas Guerrerro           |     camisabo              |
+| Omar Nicolas Guerrerro           |     camisabo      |
 | Juseph Santaigo Useche Torres    |     Jusechet      |
 | Daniel Felipe Castro Galindo     |   DanielCastro-02 |
 | Juan Fernando Ramírez Montes     |    jramirezmon    |
@@ -51,3 +51,7 @@ Ayudar a las personas a encontrar los lugares que buscan dentro del campus unive
 # Requisitos
 
 Para el desarrollo del proyecto se ha utilizado el framework [Ionic](https://ionicframework.com/docs/intro/cli) junto con [Angular.js](https://angular.io/guide/setup-local) para que estas dos herramientas puedan funcionar, es necesario instalar [Node.js](https://nodejs.org/es/) el cual instala un gestor de paquetes en la terminal llamado *npm*, necesario para trabajar tanto con *Ionic* como con *Angular*.
+
+# Trabajo futuro
+
+Posterior a la presente revisión, se espera contar con una aplicación completamente funcional y disponible tanto en la Play Store como en el navegador, agregando herramientas adicionales que se vayan considerando útiles para todos los usuarios. 
